@@ -21,8 +21,8 @@ format desteklenen karakterleri alttaki gibidir.
 
 biçim karakteri         Açıklama                                                Örnek sonuç
 ---------------         --------                                                -----------
-dd                      Ay günlerinin sıfır dolgulu iki haneli gösterimi	01'den 31'e
-DD                      Ay günlerinin metinsel gösterimi                        Pazar'dan Cumartesi'ye
+dd                      Günlerinin sıfır dolgulu iki haneli gösterimi	01'den 31'e
+DD                      Günlerinin metinsel gösterimi                        Pazar'dan Cumartesi'ye
 
 mm                      Ayın sıfır dolgulu sayısal gösterimi                    01'den 12'ye
 MM                      Ayın metinsel kısa gösterimi                            Ocak'dan Aralık'a kadar
