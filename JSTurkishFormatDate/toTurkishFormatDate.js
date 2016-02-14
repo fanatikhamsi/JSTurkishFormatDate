@@ -1,21 +1,19 @@
 /*
- Based on Selim61 code
- https://github.com/fanatikhamsi/denemeler/blob/master/test.js
+ Based on fanatikhamsi code https://github.com/fanatikhamsi/
  Contributors:
  Selim Çoban - @fanatikhamsi
- */
-/*
-Örnek:
-var simdikiTarih = new Date();
+ ------------------
+ Örnek:
+    var simdikiTarih = new Date();
 
-simdikiTarih.toTurkishFormatDate("dd.mm.yyyy")
-Çıktı: 14.02.2016
+    simdikiTarih.toTurkishFormatDate("dd.mm.yyyy")
+    Çıktı: 14.02.2016
 
-simdikiTarih.toTurkishFormatDate("dd MM DD yyyy")
-Çıktı: 14 Şubat Pazar 2016
+    simdikiTarih.toTurkishFormatDate("dd MM DD yyyy")
+    Çıktı: 14 Şubat Pazar 2016
 
-simdikiTarih.toTurkishFormatDate("dd MM yyyy")
-Çıktı: 14 Şubat 2016
+    simdikiTarih.toTurkishFormatDate("dd MM yyyy")
+    Çıktı: 14 Şubat 2016
  */
 Date.prototype.toTurkishFormatDate = function(format) {
     var date = this,
