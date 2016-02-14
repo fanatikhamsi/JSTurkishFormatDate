@@ -4,7 +4,19 @@
  Contributors:
  Selim Çoban - @fanatikhamsi
  */
+/*
+Örnek:
+var simdikiTarih = new Date();
 
+simdikiTarih.toTurkishFormatDate("dd.mm.yyyy")
+Çıktı: 14.02.2016
+
+simdikiTarih.toTurkishFormatDate("dd MM DD yyyy")
+Çıktı: 14 Şubat Pazar 2016
+
+simdikiTarih.toTurkishFormatDate("dd MM yyyy")
+Çıktı: 14 Şubat 2016
+ */
 Date.prototype.toTurkishFormatDate = function(format) {
     var date = this,
             day = date.getDate(),
