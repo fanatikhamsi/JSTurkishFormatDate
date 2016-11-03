@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jsturkishformatdate by fanatikhamsi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jsturkishformatdate</h1>
+        <p>Javascript Türkçe Tarih Formatı</p>
+
+        <p class="view"><a href="https://github.com/fanatikhamsi/JSTurkishFormatDate">View the Project on GitHub <small>fanatikhamsi/JSTurkishFormatDate</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/fanatikhamsi/JSTurkishFormatDate/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fanatikhamsi/JSTurkishFormatDate/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/fanatikhamsi/JSTurkishFormatDate">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="javascript-türkçe-tarih-formatı" class="anchor" href="#javascript-t%C3%BCrk%C3%A7e-tarih-format%C4%B1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Javascript Türkçe Tarih Formatı</h1>
+
+<h2>
+<a id="hakkında" class="anchor" href="#hakk%C4%B1nda" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hakkında</h2>
+
+<p>Javascriptte tarih formatına göre Türkçe ay ve gün formatlarını da destekleyen js eklentisidir.</p>
+
+<h2>
+<a id="Örnek-kullanımlar" class="anchor" href="#%C3%96rnek-kullan%C4%B1mlar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Örnek Kullanımlar</h2>
+
+<div class="highlight highlight-source-shell"><pre>var simdikiTarih = new <span class="pl-en">Date</span>();</pre></div>
+
+<div class="highlight highlight-source-shell"><pre>simdikiTarih.toTurkishFormatDate(<span class="pl-s"><span class="pl-pds">"</span>dd.mm.yyyy<span class="pl-pds">"</span></span>) //Çıktı <span class="pl-c1">:</span> 14.02.2016</pre></div>
+
+<div class="highlight highlight-source-shell"><pre>simdikiTarih.toTurkishFormatDate(<span class="pl-s"><span class="pl-pds">"</span>dd MM DD yyyy<span class="pl-pds">"</span></span>) //Çıktı <span class="pl-c1">:</span> 14 Şubat Pazar 2016</pre></div>
+
+<div class="highlight highlight-source-shell"><pre>simdikiTarih.toTurkishFormatDate(<span class="pl-s"><span class="pl-pds">"</span>dd MM yyyy<span class="pl-pds">"</span></span>) //Çıktı <span class="pl-c1">:</span> 14 Şubat 2016 </pre></div>
+
+<h2>
+<a id="formatlar" class="anchor" href="#formatlar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Formatlar</h2>
+
+<blockquote>
+<p>dd : Ay günlerinin sıfır dolgulu iki haneli gösterimi : 01'den 31'e</p>
+
+<p>DD : Ay günlerinin metinsel gösterimi : Pazar'dan Cumartesi'ye</p>
+
+<p>mm : Ayın sıfır dolgulu sayısal gösterimi : 01'den 12'ye</p>
+
+<p>MM : Ayın metinsel kısa gösterimi : Ocak'dan Aralık'a kadar</p>
+
+<p>yy : Yılın iki haneli gösterimi : Örnekler: 99 ya da 16 gibi</p>
+
+<p>yyyy : Yılın iki haneli gösterimi : Örnekler: 1999 ya da 2016 gibi</p>
+
+<p>hh : Saatin, 12-saatlik sıfır dolgulu gösterimi : 01'den 12'ye</p>
+
+<p>HH : Saatin, 24-saatlik sıfır dolgulu gösterimi : 00'dan 23'e</p>
+
+<p>ii : Sıfır dolgulu dakika gösterimi : 00 ile 59 arasında</p>
+
+<p>ss : Sıfır dolgulu saniye gösterimi : 00 ile 59 arasında</p>
+</blockquote>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/fanatikhamsi">fanatikhamsi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
