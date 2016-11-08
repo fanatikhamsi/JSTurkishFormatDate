@@ -1,4 +1,5 @@
 # Javascript Türkçe Tarih Formatı
+http://fanatikhamsi.github.io/JSTurkishFormatDate/
 
 ## Hakkında
 Javascriptte tarih formatına göre Türkçe ay ve gün formatlarını da destekleyen js eklentisidir.
