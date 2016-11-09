@@ -15,6 +15,7 @@
     simdikiTarih.toTurkishFormatDate("dd MM yyyy")
     Çıktı: 14 Şubat 2016
  */
+
 Date.prototype.toTurkishFormatDate = function(format) {
     var date = this,
             day = date.getDate(),
@@ -44,7 +45,7 @@ Date.prototype.toTurkishFormatDate = function(format) {
     }
 
     format = format.replace("dd", day.toString().padL(2, "0"));
-    
+
     format = format.replace("DD", dayNames[weekDay]);
 
     if (format.indexOf("HH") > -1) {
